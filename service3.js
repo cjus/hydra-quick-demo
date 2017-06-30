@@ -13,7 +13,7 @@ let api = express.Router();
 
 const config = {
   "hydra": {
-    "serviceName": "service",
+    "serviceName": "myservice",
     "serviceIP": "",
     "servicePort": 5003,
     "serviceType": "test",
