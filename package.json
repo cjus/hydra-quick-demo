@@ -1,0 +1,29 @@
+{
+  "name": "hydra-quick-demo",
+  "version": "1.0.0",
+  "description": "Quick Hydra Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm-run-all --parallel service1 service2 service3 service4",
+    "service1": "node service1",
+    "service2": "node service2",
+    "service3": "node service3",
+    "service4": "node service4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjus/hydra-quick-demo.git"
+  },
+  "keywords": [],
+  "author": "Carlos Justiniano <cjus34@gmail.com> (http://cjus.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cjus/hydra-quick-demo/issues"
+  },
+  "homepage": "https://github.com/cjus/hydra-quick-demo#readme",
+  "dependencies": {
+    "hydra-express": "1.4.8",
+    "npm-run-all": "4.0.2"
+  }
+}
