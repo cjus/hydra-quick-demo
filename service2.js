@@ -1,7 +1,7 @@
 /**
 * @name service1
-* @summary Service 1 entry point
-* @description says hello I'm service 1
+* @summary Service 2 entry point
+* @description says hello I'm service 2
 */
 'use strict';
 
@@ -15,9 +15,9 @@ const config = {
   "hydra": {
     "serviceName": "myservice",
     "serviceIP": "",
-    "servicePort": 5001,
+    "servicePort": 5002,
     "serviceType": "test",
-    "serviceDescription": "says hello I'm service instance 1",
+    "serviceDescription": "says hello I'm service instance 2",
     "redis": {
       "url": "redis://127.0.0.1:6379/15"
     }

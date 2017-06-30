@@ -1,7 +1,7 @@
 /**
 * @name service1
-* @summary Service 1 entry point
-* @description says hello I'm service 1
+* @summary Service 4 entry point
+* @description says hello I'm service 4
 */
 'use strict';
 
@@ -13,11 +13,11 @@ let api = express.Router();
 
 const config = {
   "hydra": {
-    "serviceName": "myservice",
+    "serviceName": "service",
     "serviceIP": "",
-    "servicePort": 5001,
+    "servicePort": 5004,
     "serviceType": "test",
-    "serviceDescription": "says hello I'm service instance 1",
+    "serviceDescription": "says hello I'm service instance 4",
     "redis": {
       "url": "redis://127.0.0.1:6379/15"
     }
