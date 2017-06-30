@@ -1,6 +1,8 @@
 # hydra-quick-demo
 Quick Hydra Demo
 
+Presentation: https://goo.gl/vSvf7S
+
 ## grab a redis container and start it
 
 ```shell
